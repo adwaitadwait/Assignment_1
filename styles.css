@@ -1,0 +1,26 @@
+/* Background color */
+body {background-color: pink}
+/* Alligned top to center */
+header {text-align: center;}
+/* Center alligned text */
+section {clear: both;
+text-align: center}
+/* My articles float, left, and the text is left alligned. */
+article {float: right; width: 68%; text-align: left; padding-right: 10%}
+/* My asides float, right. */
+aside {float: left; width: 22%;}
+/* My headers are center aligned, in Arial with a fixed size */
+h1 {text-align: center;
+	font-family: Arial;
+font-size: 32px
+vertical-align: top;}
+/* My body copy is center aligned, in Arial with a smaller size than the header */
+body {text-align: center;
+	font-family: Arial; 
+	padding-top: 10px
+	padding-bottom: 10px;}
+/* Kept the font consistent for smaller section in the copy body */
+h3 { font-family: Arial; padding: 0px;}
+h4 { font-family: Arial;}
+/* Kept the font consistent for paragraphs in the copy body */
+p {color: #333; font-size: 15px; font-family: Arial; vertical-align: top; padding: 0px;}
